@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #002753;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    overflow: auto;
+    padding: 0px;
+    align-items: center;
+}
+
+header nav h1 {
+    color: orange;
+    font-family: 'Rock Salt', cursive;
+    margin-left: 100px;
+    line-height: 70px;
+    font-size: 25px;
+}
+
+header nav li {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    display: inline;
+    margin-left: 100px;
+    margin-right: -45px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+header nav li a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+header nav .instituto-senna {
+    color: orange;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: orange;
+}
+
+header nav .instituto-senna:hover {
+    color: rgb(24, 199, 24);
+    text-decoration: none;
+}
+
+.custom-background {
+    background-image: url(https://senna.com/wp-content/uploads/2023/05/Fotos-Fas_Dia-Mundial-da-Fotografia_p.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: none;
+}
+
+#about h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: orange;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#about div p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-right: 50px;
+    margin-top: 8px;
+    color: #f2f2f2;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#about, #carreer {
+    padding: 100px;
+    margin-top: -4px;
+    background-color: #002753;
+}
+
+.senna-chuva-carreira {
+    width: 100%;
+    height: auto;
+}
+
+#carreer h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: orange;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#carreer div h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 8px;
+    color: orange;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#carreer div p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-right: 50px;
+    margin-top: 8px;
+    color: #f2f2f2;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.senna-titles {
+    width: 100%;
+    height: auto;
+}
+
+#titles {
+    padding: 100px;
+    margin-top: -4px;
+    justify-content: center;
+    display: flex;
+    background-color: orange;
+}
+
+#titles h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #002753;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#titles div h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    color: #002753;
+    padding: 5px;
+    font-size: 25px;
+}
+
+table {
+    padding: 5px;
+    background-color: rgb(252, 176, 36);
+    border-collapse: separate;
+    width: 100%;
+    line-height: 60px;
+    border-style: none;
+    color: #002753;
+    align-items: center;
+}
+
+th, td {
+    border: 0;
+    border-collapse: separate;  
+}
+
+th {
+    color: #002753;
+    background-color: rgb(252, 176, 36);
+    border-radius: 0px;
+}
+
+.senna-legado {
+    width: 100%;
+    height: auto;
+}
+
+#legend {
+    padding: 100px;
+    margin-top: -4px;
+    background-color: #002753;
+}
+
+#legend h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: orange;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#legend div p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-right: 100px;
+    margin-top: 8px;
+    color: rgb(24, 199, 24);
+    padding: 5px;
+    font-size: 18px;
+}
+
+#explore-legado {
+    padding: 25px;
+    margin-top: -4px;
+    background-color:orange;
+}
+
+#explore-legado a {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-top: 8px;
+    color: #002753;
+    padding: 5px;
+    font-size: 24px;
+}
+
+#explore-legado:hover {
+    padding: 25px;
+    margin-top: -4px;
+    background-color: rgb(24, 199, 24);
+}
+
+#explore-legado a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    padding: 100px;
+    background-color: rgb(0, 124, 0);
+}
+
+#contact h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #f2f2f2;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 200px;
+}
+
+.contact-methods h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-right: 100px;
+    margin-top: 8px;
+    color: #002753;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.contact-methods p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-right: 100px;
+    margin-top: 8px;
+    color: #f2f2f2;
+    padding: 5px;
+    font-size: 18px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: orange;
+    color: #002753;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #002753;
+    color: orange;
+}
+
+input:focus, textarea:focus {
+    outline-color: #002753;
+}
+
+footer {
+    padding: 25px;
+    margin-top: -4px;
+    background-color: #002753;
+}
+
+footer p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-top: 8px;
+    color: orange;
+    padding: 5px;
+    font-size: 18px;
+}
